@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>%%%TITLE%%% -- %%%PAGETITLE%%%</title>
+	%%%HEAD%%%
+
+	<meta name='description' content="Tracks and reports possible zombie outbreaks and infections worldwide. Stay informed... stay alive.">
+	<meta name='keywords', content='zombie,zombies,undead,outbreak,infection,stay informed,stay alive'>
+
+	<link href="include/FancyTable.css"  rel="stylesheet" type="text/css">
+	<link href="include/zombiemeter.css" rel="stylesheet" type="text/css">
+	<link rel="alternate" type="application/rss+xml" title="ZombieMeter RSS Feed" href="rss.php">
+
+	<script type="text/javascript" src="include/js/functions.js"></SCRIPT>
+
+	<script type='text/javascript'>
+	    %%%SCRIPT%%%
+
+		function onLoadHandler()
+		{
+			%%%ONLOAD%%%
+		}
+	</script>
+</head>
+
+<body onLoad='javascript:onLoadHandler()'>
+	<table>
+		<tr>
+			<td width='200'>
+			</td>
+			<td width='394'>
+			</td>
+			<td width='206'>
+			</td>
+		</tr>
+		<tr>
+			<td colspan='2' class='header'>
+				<table width='100%'>
+<tr>
+<td colspan=3><a href='index.php'><img src='images/title.png' alt='ZombieMeter.org'></a></td>
+</tr>
+					<tr>
+						<td class='welcome'>%%%WELCOME%%%</td>
+					</tr>
+					<tr>
+						<td>
+							%%%MENU%%%
+						</td>
+					</tr>
+				</table>
+			</td>
+			<td colspan='1' class='header'>
+				<a href='index.php'>%%%LOGO%%%</a>
+			</td>
+		</tr>
+		<tr>
+			<td colspan='1' valign='top' style='padding-right: 20px;'>
+				<table width='100%'>
+					<tr>
+						<td align='center'>%%%METER%%%</td>
+					</tr>
+					<tr>
+						<td align='center'>%%%COUNTRIES%%%</td>
+					</tr>
+					<tr>
+						<td>%%%ARCHIVE%%%</td>
+					</tr>
+				</table>
+			</td>
+			<td colspan='2' class='content' valign='top'>
+				<table width='100%'>
+					<tr>
+						<td class='pagetitle'>
+							%%%PAGETITLE%%%
+						</td>
+					</tr>
+<!--				<tr>
+						<td class='breadcrumbs'>%%%BREADCRUMBS%%%</td>
+					</tr> -->
+					<tr>
+						<td id='minimenu'>%%%MINIMENU%%%</td>
+					</tr>
+					<tr>
+						<td>
+							<span class='message'>%%%MESSAGE%%%</span>
+							<span class='error'>%%%ERROR%%%</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							%%%CONTENT%%%
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr><td colspan='3'>&nbsp;</td></tr>
+		<tr>
+			<td colspan='3' class='footer'>
+				%%%COPYRIGHT%%%
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
+

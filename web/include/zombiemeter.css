@@ -1,0 +1,292 @@
+img
+{
+	border: 0;
+}
+
+body
+{
+	background: #000000;
+	font-size: 12px;
+	font-family: tahoma, verdana, sans-serif;
+	color: #FFFFFF;
+}
+
+table
+{
+	border-spacing: 0;
+}
+
+td
+{
+	font-size: 12px;
+	font-family: tahoma, verdana, sans-serif;
+}
+
+th
+{
+	border-bottom: 2px solid #B70404;
+	font-weight: bold;
+}
+
+
+a
+{
+	color: #FFF200;
+	text-decoration: none;
+}
+
+/** This is the menu at the top-left, with Home / Articles / Etc. */
+#menu
+{
+	list-style: none;
+	padding: 0px 0px 1px;
+	margin: 0;
+}
+
+#menu li
+{
+	display: inline;
+	padding: 0;
+	margin:0;
+}
+
+#menu li a
+{
+	padding: 0px 15px 2px 0px;
+	margin-right: -1px;
+	text-decoration: none;
+}
+
+/** The minimenu is the smaller menu at the top of each page. */
+#minimenu
+{
+	list-style: none;
+	padding: 0px 0px 0px 0px;
+	margin: 0;
+}
+
+#minimenu li
+{
+	display: inline;
+	padding: 0px 15px 2px 0px;
+	margin: 0;
+	font: bold 0.7em Verdana, sans-serif;
+}
+
+#minimenu li a
+{
+}
+
+/************************************************/
+/** The following classes are the main layout. **/
+/************************************************/
+
+/** The welcome text at the top. */
+td.welcome
+{
+	padding: 0px 0px 1px;
+	margin: 0;
+	font-weight: normal;
+}
+
+/** The cells at the top containing the menu and logo. */
+td.header
+{
+	border-bottom: 2px solid #B70404;
+	border-top: 2px solid #B70404;
+	font: bold 0.8em Verdana, sans-serif;
+}
+
+/** The big cell in the middle, containing the page's contents. */
+td.content
+{
+	font: normal 0.8em Verdana, sans-serif;
+}
+
+/** The cell at the bottom containing the fineprint. */
+td.footer
+{
+	border-bottom: 2px solid #B70404;
+	border-top: 2px solid #B70404;
+	font: bold 0.8em Verdana, sans-serif;
+}
+
+/** An error message displayed to the user at the top. */
+.error
+{
+	font: bold 0.8em Verdana, sans-serif;
+	color: red;
+}
+
+/** An informational message displayed to the user at the top. */
+.message
+{
+	font: bold 0.8em Verdana, sans-serif;
+	color: #008000;
+}
+
+/** The title at the top of each page. */
+td.pagetitle
+{
+	font: bold 1.5em Verdana, sans-serif;
+	border-bottom: 1px solid #B70404;
+}
+
+/**************************************/
+/** The table containing each story. **/
+/**************************************/
+table.story
+{
+	border-top: 2px solid #B70404;
+}
+
+td.storytitle
+{
+	border-bottom: 1px solid #B70404;
+	font: bold 1em Verdana, sans-serif;
+}
+
+.storyeditdelete
+{
+	font: bold 0.7em Verdana, sans-serif;
+}
+
+.storyusername
+{
+	font: bold 0.8em Verdana, sans-serif;
+}
+
+.storydate
+{
+	font: bold 0.8em Verdana, sans-serif;
+}
+
+td.storytext
+{
+}
+
+td.storycommentcount
+{
+	border-top: 1px solid #B70404;
+	border-bottom: 2px solid #B70404;
+}
+
+.storyinfocell
+{
+	border-bottom: 1px solid #B70404;
+	font: 0.8em Verdana, sans-serif;
+}
+
+
+
+
+/****************************************/
+/** The table containing each comment. **/
+/****************************************/
+table.comment
+{
+	border-top: 2px solid #B70404;
+}
+
+td.commenttitle
+{
+	border-bottom: 1px solid #B70404;
+	font: bold 1em Verdana, sans-serif;
+}
+
+.commenteditdelete
+{
+	font: bold 0.7em Verdana, sans-serif;
+}
+
+td.commentinfo
+{
+	border-bottom: 1px solid #B70404;
+	font: 0.8em Verdana, sans-serif;
+}
+
+.commentusername
+{
+	font: bold 0.8em Verdana, sans-serif;
+}
+
+.commentdate
+{
+	font: bold 0.8em Verdana, sans-serif;
+}
+
+td.commenttext
+{
+}
+
+/***********/
+/** About **/
+/***********/
+td.aboutheader
+{
+	border-top: 2px solid #B70404;
+	font: bold 1.2em Verdana, sans-serif;
+	background: #370404;
+}
+
+td.aboutbody
+{
+}
+
+/****************************/
+/** Questions and Answers. **/
+/****************************/
+td.qandaheader
+{
+	border-top: 2px solid #B70404;
+	font: bold 1.2em Verdana, sans-serif;
+	background: #370404;
+}
+
+td.qandaquestion
+{
+	padding-top: 5px;
+	font-style: italic;
+}
+
+td.qandasignature
+{
+	text-align: right;
+	font-style: italic;
+}
+
+td.qandaanswer
+{
+	padding-top: 10px;
+}
+
+
+/*******************/
+/** Top 10 stuff. **/
+/*******************/
+td.top10header
+{
+	border-bottom: 2px solid #B70404;
+	font: bold 1.0em Verdana, sans-serif;
+	padding-top: 20px;
+}
+
+td.top10body
+{
+}
+
+/**************************/
+/** Miscellaneous stuff. **/
+/**************************/
+
+/* I disabled breadcrumbs, but will leave this just in case. */
+.breadcrumbs
+{
+	font: bold 0.8em Verdana, sans-serif;
+}
+
+/** This is only used in one place, but eh. */
+.smalltext
+{
+	font: bold 0.7em Verdana, sans-serif;
+}
